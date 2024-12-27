@@ -1,1 +1,6 @@
 .venv
+
+# DBT STUFF
+logs/
+target/
+.user.yml

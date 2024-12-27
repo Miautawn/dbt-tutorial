@@ -1,0 +1,9 @@
+jaffle_shopi:
+  target: dev
+  outputs:
+    dev:
+      type: bigquery
+      method: oauth
+      project: "{{ env_var('DBT_ENV_SECRET_TUTORIAL_BIGQUERY_PROJECT') }}"
+      dataset: dbt_mjasinskas
+      location: europe-west4
